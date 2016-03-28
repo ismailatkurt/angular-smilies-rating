@@ -7,9 +7,23 @@
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="../src/angular-smilies-rating.css">
 </head>
-<body>
+<body ng-controller="DemoController as _demo">
 
-<smilies-rating></smilies-rating>
+
+
+<br />
+<br />
+<br />
+<br />
+<smilies-rating values="{{values}}" ng-model="demoModel"></smilies-rating>
+
+<br />
+<br />
+<br />
+<br />
+<p>
+{{demoModel}}
+</p>
 
 </body>
 <script src="../bower_components/angular/angular.js"></script>
