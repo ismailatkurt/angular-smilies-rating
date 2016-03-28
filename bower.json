@@ -13,8 +13,11 @@
   "moduleType": [
     "amd"
   ],
-  "dependencies": {
+  "devDependencies": {
     "angular": "~1.x"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.6"
   },
   "keywords": [
     "smiley",
