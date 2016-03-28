@@ -5,13 +5,22 @@
   "authors": [
     "İsmail Atkurt <ismail.atkurt@gmail.com>"
   ],
-  "description": "Angular Smilies Rating Component",
-  "main": "angular-smilies-rating.js",
-  "moduleType": [],
+  "description": "Angular Smilies Rating Component, faces like happy, sad etc are available to end users.",
+  "main": [
+    "src/angular-smilies-rating.min.js",
+    "src/angular-smilies-rating.css"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies": {
+    "angular": "~1.x"
+  },
   "keywords": [
-    "Smiley",
-    "Smilies",
-    "rating"
+    "smiley",
+    "smilies",
+    "rating",
+    "face rating"
   ],
   "license": "MIT",
   "ignore": [
