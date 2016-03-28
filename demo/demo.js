@@ -1,5 +1,3 @@
-
-
 var app = angular.module('angularSmiliesRatingDemo', ['angular-smilies-rating']);
 
 app
@@ -12,7 +10,12 @@ function DemoController($scope) {
 
   var self = this;
 
-  $scope.values = "Angular Smilies Rating Demo";
+  $scope.values = {
+    "sad": "sad",
+    "neutral": "neutral",
+    "normal": "normal",
+    "happy": "happy"
+  };
 
   $scope.demoModel = "";
 
