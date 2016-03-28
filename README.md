@@ -1,1 +1,1 @@
-# angular-smilies-rating
+# Angular Smilies Rating Component
