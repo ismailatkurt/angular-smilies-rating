@@ -2,6 +2,8 @@
 
 Instead of traditional star rating, this component uses smiley in order to rate.
 
+[DEMO](https://embed.plnkr.co/4VSX9pgHGeCaKDzqPtzl/)
+
  **1. Installation**
 
 
