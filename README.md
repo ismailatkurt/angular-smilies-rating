@@ -15,6 +15,8 @@ Do not forget to include js & css files.
 
     <link rel="stylesheet" href="../bower_components/angular-smilies-rating/dist/angular-smilies-rating.css">
 
+    add **'angular-smilies-rating'** to your app module
+
  **2. Usage**
 
 In your controller set values as below:
