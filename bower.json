@@ -1,14 +1,14 @@
 {
   "name": "angular-smilies-rating",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/ismatkurt/angular-smilies-rating",
   "authors": [
     "İsmail Atkurt <ismail.atkurt@gmail.com>"
   ],
   "description": "Angular Smilies Rating Component, faces like happy, sad etc are available to end users.",
   "main": [
-    "src/angular-smilies-rating.min.js",
-    "src/angular-smilies-rating.css"
+    "./dist/angular-smilies-rating.min.js",
+    "./dist/angular-smilies-rating.css"
   ],
   "moduleType": [
     "amd"
