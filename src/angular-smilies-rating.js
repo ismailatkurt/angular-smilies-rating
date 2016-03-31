@@ -18,9 +18,11 @@
         var htmlText = '<div class="cc-selector-2">';
         angular.forEach(scope.values, function (value, key) {
           htmlText += '<input id="' + key + '" type="radio" name="smileyTemplate" ng-model="mood" value="' + value + '" />' +
-            '<label class="drinkcard-cc ' + key + '" for="' + key + '"></label>';
+            '<label class="drinkcard-cc ' + key + '" for="' + key + '" style="width: '+scope.width+'; height: '+scope.width+';"></label>';
         });
         htmlText += '</div>';
+
+        console.log(scope.width);
 
         htmlText = $compile(htmlText)(scope);
 
